@@ -494,7 +494,8 @@ class Skew(Operation):
 
         max_skew_amount = max(w, h)
         max_skew_amount = int(ceil(max_skew_amount * self.magnitude))
-        skew_amount = random.randint(1, max_skew_amount)
+        # skew_amount = random.randint(1, max_skew_amount)
+        # skew_amount = max_skew_amount
 
         # Old implementation, remove.
         # if not self.magnitude:
